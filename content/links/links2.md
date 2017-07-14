@@ -2,9 +2,8 @@
 title: "Links"
 date: 2017-07-14T19:10:30+02:00
 draft: true
+description: "Hier findet ihr Links zu Vereinen und Gruppierungen mit ähnlichen Interessen."
 ---
-
-Hier findet ihr Links zu Vereinen und Gruppierungen mit ähnlichen Interessen.
 
 # Hackspaces in Dortmund und Umgebung
 - [Chaostreff Dortmund](https://www.chaostreff-dortmund.de/)

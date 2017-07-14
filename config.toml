@@ -1,10 +1,19 @@
-baseURL = "http://example.org/"
+baseURL = "/"
 languageCode = "en-us"
 title = "FOSS-AG Dortmund"
+theme = "kube"
+description = "Free and Open-Source Software AG"
+Paginate = 4
+[Params]
+  RSSLink = "/index.xml"
+  author = "FOSS-AG" # add your company name
+  github = "" # add your github profile name
+  twitter = "" # add your twitter profile
+  email = "myemail@myaddress.xxx"
 
 [[menu.main]]
 	name   = "Links"
-	url    = "/links"
+	url    = "/links/links2"
 	weight = 0
 
 [[menu.main]]
