@@ -1,3 +1,13 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "FOSS-AG Dortmund"
+
+[[menu.main]]
+	name   = "Links"
+	url    = "/links"
+	weight = 0
+
+[[menu.main]]
+	name   = "Linux Days Dortmund 2017"
+	url    = "/ldd2017"
+	weight = 0
