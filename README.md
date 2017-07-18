@@ -49,7 +49,7 @@ The Markdown file representing the post will appear in `/content/portfolio/`. He
 To check if everything looks the way you want it to be start a server on localhost using:
 
 ```
-hugo server --theme=beautifulhugo -D
+hugo server --theme=hugo-creative-portfolio-theme -D
 ```
 
 As you might have noticed there is a draft flag in your post header. As long as it's set to true Hugo won't consider this file unless you add the `-D` flag, which stands for `buildDrafts`. If everything is alright you can undraft your post using:
@@ -61,7 +61,7 @@ hugo undraft /portfolio/name_of_your_post.md
 Now build the website:
 
 ```
-hugo --theme=beautifulhugo
+hugo --theme=hugo-creative-portfolio-theme
 ```
 
 You will find the website in the `public/` directory. As mentioned above the `public/` directory is a git repository, so you want to commit the new version.
