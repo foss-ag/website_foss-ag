@@ -46,6 +46,8 @@ hugo new portfolio/name_of_your_post.md
 ```
 The Markdown file representing the post will appear in `/content/portfolio/`. Here you will find a header with information such as title and date. Below the header you can write the actual content.
 
+If you want to add a preview image to your post you can add a line `image: "img/your_image.png"` to the header. The corresponding image must be saved in `/static/img`. Furthermore you can decide if the preview image shall be shown with or without a small preview of the text. Therefore add another line to the header: `showonlyimage: true`
+
 To check if everything looks the way you want it to be start a server on localhost using:
 
 ```
