@@ -38,7 +38,15 @@ googleAnalytics = ""
 
   [[params.navlinks]]
   name = "Social Media"
-  url = "contact/"
+  url = "social_media/"
+
+  [[params.navlinks]]
+  name = "Links"
+  url = "links/"
+
+  [[params.navlinks]]
+  name = "Protokolle"
+  url = "protocols/"
 
   [[params.navlinks]]
   name = "Über uns"
