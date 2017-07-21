@@ -1,0 +1,67 @@
+---
+title: "Sitzung 45"
+date: 2017-07-21T13:11:34+02:00
+draft: true
+---
+- Pool-Rechner Umfrage (Jan)
+    - Jan erstellt Fragen
+    - Nicolas erstellt google Form
+    - über fsStudis schicken
+- Folien hochladen
+- Social Media Kanäle im Wiki updaten
+    - Brauchen wir wirklich soviele? Antwort: Ja
+- Linux Lounge auf Website verlinken
+    - immer auf Twitter/Mastodon vorankündigen und nachwirkend erwähnen
+    - Unterpunkt auf HP mit Unterstützte Projekte: HackNSnack auch dazu
+    - HackNSnack und LL auf andere-Initiativen-Seite packen
+- FrOSCon
+    - Chris und Alex kümmern sich
+- Geld / Finanzen (Michael)
+    - Michael hat Gesamtbetrag noch nicht ausgerechnet. Wieder vertagt auf nächste Woche. :-(
+    - Gnucash?
+    - Nein → vielleicht
+    - Michael und Nicolas sind damit vertraut
+- Sind wir die „FOSS-AG“ oder die „FOSS AG“? (Nur als Default wenn mal die Frage kommt)
+    - Umfrage:
+    - FOSS-AG: 6
+    - FOSS AG: 2
+- Git-Organisation (Yannick)
+    - Aufteilung Github / Gogs / Mirroringgit repos in ordne
+    - Mail bei Issues → besser aufteilen
+    - Abstimmung:
+        - FOSS-AG-orga: 4
+        - FOSS-AG_orga: 3
+        - Enthaltung: 2
+    - Fragestellung: Mechanismus „Organisation“ für Organisation/Gruppen nutzen?
+    - Die AG diskutiert intensiv
+    - Jan findet die FOSS-AG ist eine Organisation
+    - Vorschlag: Nur eine Organisation
+    - Abstimmung: Wollen wir mehrere Organisation zur Strukturierung verwenden?
+        - Ja: 1
+        - Nein: 2
+        - Enthaltung 4
+    - Zu lange diskutieren - Thema wird vertragt damit sich jeder mal Gedanken machen kann.
+    - Vorschlag von Innay für 'Organisationen':
+        - FOSS-AG-orga
+        - FOSS-AG-talk
+        - FOSS-AG-code/source
+        - FOSS-AG-notizen
+    - Padliste
+    - Vorlagen
+    - Website
+    - Protokoll?
+    - Vertagt!
+- Was machen wir mit GitHub?
+    - argumente hier dokumentieren
+    - Woche Denkzeit, Vertragt auf nächste Woche
+- Vorlagen zu Veranstaltungen (Yannick)
+    - Yannick schlägt vor, Check-List für Veranstaltungen (Erster Entwurf im GIT https://git.foss-ag.de/orga/setup/src/master/checklist.md)
+    - Allgemeine Checklist für Veranstaltung. Yannick bastelt da weiter dran.
+- Aufgabenverwaltung (Yannick)
+    - Aufgabenverwaltung ist Teil von CalDAV - Wollen wir Aufgaben* Was machen wir mit GitHub? im Kalender verwalten?
+    - Yannick versucht Aufgaben in den Kalender ein zu tragen. Wer das sehen will brauch App auf Android. DAVDroid / CalDAV Sync
+- Ideenverwaltung (Yannick)
+    - Yannick hat was im Repo anglegt.
+    - Alternative zu https://fsinfo.cs.tu-dortmund.de/ags/foss-ag/vortraege
+    - Aufteilung intern / extern?
+    - Meht Initiative für alternative andere Projekte
