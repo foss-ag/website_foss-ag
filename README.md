@@ -2,10 +2,10 @@
 This repository contains all the stuff from which foss-ag.de is generated. The website (HTML files) isn't included here, but got an extra repository (soon).
 
 ## Contents
-1. [Preparations](## Preparations)
-2. [How to add posts](## How to add posts)
-3. [How to add sites to the sidebar navigation](## How to add sites to the sidebar navigation)
-4. [How to edit "next meetings" section](## How to edit "next meetings" section)
+1. [Preparations](#preparations)
+2. [How to add posts](#how-to-add-posts)
+3. [How to add sites to the sidebar navigation](#how-to-add-sites-to-the-sidebar navigation)
+4. [How to edit "next meetings" section](#how-to-edit-"next-meetings"-section)
 
 ## Preparations
 - First of all [install Hugo](https://gohugo.io/overview/installing/)
