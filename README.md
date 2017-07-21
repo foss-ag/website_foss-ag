@@ -36,10 +36,11 @@ mv PUBLIC_REPO public
 ```
 hugo server --theme=hugo-creative-portfolio-theme
 ```
-or (with -D)
+Alternatively use the `Makefile` with
 ```
 make
 ```
+Drafts will be shown automatically.
 
 - Open your web browser and visit `http://localhost:1313/`. There you should see the generated website.
 
