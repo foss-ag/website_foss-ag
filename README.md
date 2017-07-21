@@ -36,6 +36,10 @@ mv PUBLIC_REPO public
 ```
 hugo server --theme=hugo-creative-portfolio-theme
 ```
+or (with -D)
+```
+make
+```
 
 - Open your web browser and visit `http://localhost:1313/`. There you should see the generated website.
 
