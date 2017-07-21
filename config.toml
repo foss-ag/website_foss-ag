@@ -1,4 +1,4 @@
-baseurl = "https://example.org/"
+baseurl = "https://foss-ag.de/home"
 title = "Free and Open-Source Software AG"
 theme = "hugo-creative-portfolio-theme"
 languageCode = "en-us"
@@ -34,7 +34,7 @@ googleAnalytics = ""
   # Nav links in the side bar
   [[params.navlinks]]
   name = "Startseite"
-  url = ""
+  url = "/"
 
   [[params.navlinks]]
   name = "Projekte"
