@@ -76,3 +76,27 @@ You will find the website in the `public/` directory. As mentioned above the `pu
 Last but not least: Don't forget to pull the new version on the server that hosts the website, otherwise the changes won't be published.
 
 Done! You've added a new post to foss-ag.de. Conlaturations!
+
+## How to add sites to the sidebar navigation
+If you want to add a new site to new sidebar navigation you must follow these two simple steps.
+
+- First, create a new content entry. It's necessesary to name the file `index.md` otherwise the theme won't recognise it.
+```
+hugo new name_of_your_site/index.md
+```
+
+- Second, add the new site to the sidebar navigation, therefore edit the `config.toml` file in the projects root directory. Just add the following lines to the config file.
+
+```
+[[params.navlinks]]
+name = "name_to_display_in_the_sidebar_navigation"
+url = "name_of_your_site"
+```
+
+## How to edit "next meetings" section
+To add information for the next meetings to the website, open the `config.toml` file, which can be found in the repositorys root directory.
+There you find `sidebarAbout` parameter. Here you can simply replace the old information by the new ones.
+Some hints on editing the `sidebarAbout` parameter:
+
+- The theme won't acccept the `sidebarAbout` parameter, if you use line break. You have to write everything in a single line.
+- To add line breaks in your text use the `<br>` HTML tag.
