@@ -15,7 +15,7 @@ git clone https://git.foss-ag.de/FOSS-AG/website_foss-ag.git
 
 - Change directory to cloned git repository
 ```
-cd foss_ag_website
+cd website_foss-ag
 ```
 
 - Make sure to initialise the theme submodule
