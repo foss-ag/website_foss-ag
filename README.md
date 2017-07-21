@@ -5,7 +5,7 @@ This repository contains all the stuff from which foss-ag.de is generated. The w
 1. [Preparations](#preparations)
 2. [How to add posts](#how-to-add-posts)
 3. [How to add sites to the sidebar navigation](#how-to-add-sites-to-the-sidebar-navigation)
-4. [How to edit "next meetings" section](#how-to-edit-"next-meetings"-section)
+4. [How to edit "next meetings" section](#how-to-edit-next-meetings-section)
 
 ## Preparations
 - First of all [install Hugo](https://gohugo.io/overview/installing/)
@@ -99,7 +99,7 @@ name = "name_to_display_in_the_sidebar_navigation"
 url = "name_of_your_site"
 ```
 
-## How to edit "next meetings" section
+## How to edit next meetings section
 To add information for the next meetings to the website, open the `config.toml` file, which can be found in the repositorys root directory.
 There you find `sidebarAbout` parameter. Here you can simply replace the old information by the new ones.
 Some hints on editing the `sidebarAbout` parameter:
