@@ -10,7 +10,7 @@ hugo version
 
 - Then clone this repository
 ```
-git clone https://git.foss-ag.de/FOSS_AG/foss_ag_website.git
+git clone https://git.foss-ag.de/FOSS-AG/website_foss-ag.git
 ```
 
 - Change directory to cloned git repository
