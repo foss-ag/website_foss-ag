@@ -6,6 +6,7 @@ This repository contains all the stuff from which foss-ag.de is generated. The w
 2. [How to add posts](#how-to-add-posts)
 3. [How to add sites to the sidebar navigation](#how-to-add-sites-to-the-sidebar-navigation)
 4. [How to edit next meetings section](#how-to-edit-next-meetings-section)
+5. [How to add protocols](#how-to-add-protocols)
 
 ## Preparations
 - First of all [install Hugo](https://gohugo.io/overview/installing/)
@@ -99,6 +100,8 @@ name = "name_to_display_in_the_sidebar_navigation"
 url = "name_of_your_site"
 ```
 
+Don't forget to build the website. See "[How to add posts](#how-to-add-posts)".
+
 ## How to edit next meetings section
 To add information for the next meetings to the website, open the `config.toml` file, which can be found in the repositorys root directory.
 There you find `sidebarAbout` parameter. Here you can simply replace the old information by the new ones.
@@ -106,3 +109,18 @@ Some hints on editing the `sidebarAbout` parameter:
 
 - The theme won't acccept the `sidebarAbout` parameter, if you use line break. You have to write everything in a single line.
 - To add line breaks in your text use the `<br>` HTML tag.
+
+Don't forget to build the website. See "[How to add posts](#how-to-add-posts)".
+
+## How to add protocols
+Each protocol needs to be in a seperate directory. To create a new protocol file and the corresponding directory use
+```
+hugo new /protocols/number_of_protocol/number_of_protocol.md
+```
+
+The `number_of_protocol.md` (e.g. `42.md`) contains the actual protocol. Adding it to the list of protocols is as simple as inserting a new line to the `protocols/index.md` file like this:
+```
+- [Sitzung number_of_protocol - date_of_meeting](number_of_protocol)
+```
+
+Don't forget to build the website. See "[How to add posts](#how-to-add-posts)".
