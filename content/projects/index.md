@@ -5,17 +5,17 @@ draft: true
 ---
 
 #### Projekte
-- Linux Vorträge SoSe 2017 (Vortrag + Installparty)
-- Hack'n'Snack (Hackspace)
-- Dark-Mail (Vortrag)
-- Linux und die O-Phase (Vortrag)
-- Programmier- und Linux-Kurse an Schulen (Vortrag + Demo + Programmierung)
-- Linux HelpDesk (Support-Channel)
+- Linux Vorträge O-Phase WiSe 2017 (Vortrag + Installparty)
+- [Hack'n'Snack](https://hackandsnack.de) (Hackspace)
+- Raspberry Pi an Schulen (Vortrag + Demo + Programmierung)
+- [Linux HelpDesk](https://riot.im/app/#/room/#linux_help_desk:matrix.org) (Support-Channel)
 
 #### Unterstütze Projekte
-- Linux Lounge
+- [Linux Lounge](https://theradio.cc/blog/category/shownotes/linuxlounge/)
 
 #### Vergangene Projekte
+- Dark-Mail (Vortrag)
+- [FOSS-AG bei eldoradio*](https://www.eldoradio.de/podcast/foss-ag) (Interview)
 - Terminal-Basic und Dateisystemstruktur Vortrag (O-Phase SoSe 2017)
 - Installationsparty Helpdesk, Softwarevortrag (O-Phase SoSe 2017)
 - Desktop-Vorstellung, Installationsparty (O-Phase SoSe 2017)
