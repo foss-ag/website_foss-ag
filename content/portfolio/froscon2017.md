@@ -1,11 +1,13 @@
 ---
-title: "FrOSCon 2017"
+title: ""
 date: 2017-07-19T21:44:26+02:00
 image: "img/froscon_logo_print_color500px.png"
 showonlyimage: true
 weight: 1
 draft: true
 ---
+
+<img src="/img/froscon_logo_print_color500px.png" style="">
 
 Die FOSS-AG fährt zur [FrOSCon](https://www.froscon.de/) und nimmt euch mit!
 
