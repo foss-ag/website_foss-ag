@@ -4,7 +4,7 @@ This repository contains all the stuff from which foss-ag.de is generated. The w
 ## Contents
 1. [Preparations](#preparations)
 2. [How to add posts](#how-to-add-posts)
-3. [How to add sites to the sidebar navigation](#how-to-add-sites-to-the-sidebar navigation)
+3. [How to add sites to the sidebar navigation](#how-to-add-sites-to-the-sidebar-navigation)
 4. [How to edit "next meetings" section](#how-to-edit-"next-meetings"-section)
 
 ## Preparations
