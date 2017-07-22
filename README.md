@@ -1,5 +1,5 @@
 # FOSS-AG Website
-This repository contains all the stuff from which foss-ag.de is generated. The website (HTML files) isn't included here, but got an extra repository (soon).
+This repository contains all the stuff from which [foss-ag.de](https://foss-ag.de) is generated. The website (HTML files) isn't included here, but got an extra repository (soon).
 
 ## Contents
 1. [Preparations](#preparations)
