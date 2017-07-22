@@ -7,6 +7,7 @@ This repository contains all the stuff from which foss-ag.de is generated. The w
 3. [How to add sites to the sidebar navigation](#how-to-add-sites-to-the-sidebar-navigation)
 4. [How to edit next meetings section](#how-to-edit-next-meetings-section)
 5. [How to add protocols](#how-to-add-protocols)
+6. [Using the Makefile](#using-the-makefile)
 
 ## Preparations
 - First of all [install Hugo](https://gohugo.io/overview/installing/)
@@ -43,11 +44,6 @@ mv PUBLIC_REPO public
 ```
 hugo server --theme=hugo-creative-portfolio-theme
 ```
-Alternatively use the `Makefile` with
-```
-make
-```
-Drafts will be shown automatically.
 
 - Open your web browser and visit `http://localhost:1313/`. There you should see the generated website.
 
@@ -65,6 +61,8 @@ To check if everything looks the way you want it to be start a server on localho
 ```
 hugo server --theme=hugo-creative-portfolio-theme -D
 ```
+
+You can also use the `Makefile` to start a local server. (See "[Using the Makefile](#using-the-makefile)")
 
 As you might have noticed there is a draft flag in your post header. As long as it's set to true Hugo won't consider this file unless you add the `-D` flag, which stands for `buildDrafts`. If everything is alright you can undraft your post using:
 
@@ -100,7 +98,7 @@ name = "name_to_display_in_the_sidebar_navigation"
 url = "name_of_your_site"
 ```
 
-Don't forget to build the website. See "[How to add posts](#how-to-add-posts)".
+Don't forget to build the website. See "[How to add posts](#how-to-add-posts)" or "[Using the Makefile](#using-the-makefile)".
 
 ## How to edit next meetings section
 To add information for the next meetings to the website, open the `config.toml` file, which can be found in the repositorys root directory.
@@ -110,7 +108,7 @@ Some hints on editing the `sidebarAbout` parameter:
 - The theme won't acccept the `sidebarAbout` parameter, if you use line break. You have to write everything in a single line.
 - To add line breaks in your text use the `<br>` HTML tag.
 
-Don't forget to build the website. See "[How to add posts](#how-to-add-posts)".
+Don't forget to build the website. See "[How to add posts](#how-to-add-posts)" or "[Using the Makefile](#using-the-makefile)".
 
 ## How to add protocols
 Each protocol needs to be in a seperate directory. To create a new protocol file and the corresponding directory use
@@ -123,4 +121,32 @@ The `number_of_protocol.md` (e.g. `42.md`) contains the actual protocol. Adding 
 - [Sitzung number_of_protocol - date_of_meeting](number_of_protocol)
 ```
 
-Don't forget to build the website. See "[How to add posts](#how-to-add-posts)".
+Don't forget to build the website. See "[How to add posts](#how-to-add-posts)" or "[Using the Makefile](#using-the-makefile)".
+
+## Using the Makefile
+As an alternative for building the website with Hugo commands you can use the `Makefile` in the projects root directory.
+```
+make
+```
+starts a server and provides the website on port 1313. Open your favourite browser and visit `localhost:1313` to browse the website. Note that drafts will be shown by default. If you want final versions of posts only, use
+```
+make productive
+```
+instead.
+
+To end the local server you also use the `Makefile`.
+```
+make kill
+```
+
+**Note that closing the terminal or killing the process with Ctrl+C won't do the job!**
+
+For a more convenient usability the `Makefile` provides options to start your browser automatically. Simply give the name of your browser in lower case as an argument to the `make` command. E.g.
+```
+make firefox
+```
+
+The currently supported browsers are
+- Chromium
+- Firefox
+- Vivaldi
