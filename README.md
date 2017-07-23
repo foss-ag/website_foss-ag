@@ -1,7 +1,7 @@
 # FOSS-AG Website
 This repository contains all the stuff from which [foss-ag.de](https://foss-ag.de) is generated. The website (HTML files) isn't included here, but got an extra repository (soon).
 
-** THE BELOW INSTRUCTIONS ARE DEPRECATED **
+** CHAPTERS 2 - 6 ARE DEPRECATED **
 
 ## Contents
 1. [Preparations](#preparations)
@@ -30,7 +30,7 @@ cd website_foss-ag
 
 - Make sure to initialise the theme submodule
 ```
-cd themes/hugo-creative-portfolio-theme
+cd themes/hugo-strata-theme
 git submodule update --init --recursive
 ```
 
@@ -44,7 +44,7 @@ mv PUBLIC_REPO public
 
 - Test if everything works by generating the website. Note that no drafts will be shown. To show draft add the `-D` option.
 ```
-hugo server --theme=hugo-creative-portfolio-theme
+hugo server --theme=hugo-strata-theme
 ```
 
 - Open your web browser and visit `http://localhost:1313/`. There you should see the generated website.
