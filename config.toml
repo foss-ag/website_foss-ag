@@ -1,4 +1,4 @@
-baseurl = "https://dev.foss-ag.de"
+baseurl = "https://dev.foss-ag.de/"
 languageCode = "de-de"
 title = "Strata"
 theme = "hugo-strata-theme"
